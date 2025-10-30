@@ -1,18 +1,29 @@
-## Getting Started
+# Sistema Banco Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Sistema bancário em Java que permite ao usuário visualizar saldo, depositar, sacar e gerenciar prestações mensais via menu interativo. Desenvolvido para praticar conceitos de **orientação a objetos**, **controle de fluxo**, **entrada de dados** e **formatação de valores monetários**.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+- Visualizar saldo inicial e atualizado  
+- Depositar valores na conta  
+- Sacar valores da conta  
+- Gerenciar prestações mensais  
+- Menu interativo no console com opções claras  
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Tecnologias
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java (Console Application)  
+- `Scanner` para entrada de dados do usuário  
+- `DecimalFormat` para formatação de valores monetários  
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Estrutura do Código
 
-## Dependency Management
+- `Banco.java` – Contém métodos para limpar a tela, mostrar menu, ver saldo, depositar, sacar e gerenciar prestações
+- Métodos segmentados para facilitar manutenção e aprendizado
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Aprendizados
+
+- Lógica de programação em Java
+- Estruturas de repetição e controle de fluxo (`for`, `do-while`, `switch`)
+- Manipulação de entrada de dados
+-Formatação de valores monetários
